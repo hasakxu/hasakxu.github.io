@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>04 盒模型 | HasakWebBlog</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="description" content="hasak">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.a5a0d673.css" as="style"><link rel="preload" href="/assets/js/app.5cfb4895.js" as="script"><link rel="preload" href="/assets/js/3.f80332a6.js" as="script"><link rel="preload" href="/assets/js/1.5cffa4a1.js" as="script"><link rel="preload" href="/assets/js/14.eba8a15c.js" as="script"><link rel="prefetch" href="/assets/js/10.e625287c.js"><link rel="prefetch" href="/assets/js/11.531d3e7e.js"><link rel="prefetch" href="/assets/js/12.c9a69662.js"><link rel="prefetch" href="/assets/js/13.bd684308.js"><link rel="prefetch" href="/assets/js/15.32101124.js"><link rel="prefetch" href="/assets/js/16.fed6f755.js"><link rel="prefetch" href="/assets/js/17.46c2cfb5.js"><link rel="prefetch" href="/assets/js/18.b5bfb122.js"><link rel="prefetch" href="/assets/js/19.de0ed125.js"><link rel="prefetch" href="/assets/js/20.5fa9acc3.js"><link rel="prefetch" href="/assets/js/21.e98053e5.js"><link rel="prefetch" href="/assets/js/22.262bb4a3.js"><link rel="prefetch" href="/assets/js/23.4f6b469f.js"><link rel="prefetch" href="/assets/js/24.33cd7356.js"><link rel="prefetch" href="/assets/js/25.5bbd2c93.js"><link rel="prefetch" href="/assets/js/26.121fcdf0.js"><link rel="prefetch" href="/assets/js/27.8a965add.js"><link rel="prefetch" href="/assets/js/28.16718fc5.js"><link rel="prefetch" href="/assets/js/29.a0aef503.js"><link rel="prefetch" href="/assets/js/30.da369f64.js"><link rel="prefetch" href="/assets/js/31.9aef2818.js"><link rel="prefetch" href="/assets/js/32.fe718a7b.js"><link rel="prefetch" href="/assets/js/33.949e8bc4.js"><link rel="prefetch" href="/assets/js/34.089f03b5.js"><link rel="prefetch" href="/assets/js/35.7f7dbcc1.js"><link rel="prefetch" href="/assets/js/36.d5493e35.js"><link rel="prefetch" href="/assets/js/37.a7b5355a.js"><link rel="prefetch" href="/assets/js/38.caf03fb7.js"><link rel="prefetch" href="/assets/js/39.2a3fbed9.js"><link rel="prefetch" href="/assets/js/4.7d7a493e.js"><link rel="prefetch" href="/assets/js/40.a8d8737a.js"><link rel="prefetch" href="/assets/js/41.f98208ce.js"><link rel="prefetch" href="/assets/js/42.b8594ec9.js"><link rel="prefetch" href="/assets/js/43.0182c577.js"><link rel="prefetch" href="/assets/js/44.47499a02.js"><link rel="prefetch" href="/assets/js/45.4fd3215d.js"><link rel="prefetch" href="/assets/js/46.2f153f19.js"><link rel="prefetch" href="/assets/js/47.2963217b.js"><link rel="prefetch" href="/assets/js/48.410fc845.js"><link rel="prefetch" href="/assets/js/49.1c492806.js"><link rel="prefetch" href="/assets/js/5.176296fc.js"><link rel="prefetch" href="/assets/js/50.a7cff065.js"><link rel="prefetch" href="/assets/js/51.35f2217f.js"><link rel="prefetch" href="/assets/js/52.f0da542d.js"><link rel="prefetch" href="/assets/js/53.e4844b2d.js"><link rel="prefetch" href="/assets/js/54.947c8053.js"><link rel="prefetch" href="/assets/js/55.ff952b1c.js"><link rel="prefetch" href="/assets/js/56.1a4c9fd0.js"><link rel="prefetch" href="/assets/js/57.328efef6.js"><link rel="prefetch" href="/assets/js/58.5c9cc21f.js"><link rel="prefetch" href="/assets/js/59.c1175b68.js"><link rel="prefetch" href="/assets/js/6.90835ce9.js"><link rel="prefetch" href="/assets/js/60.18919cfe.js"><link rel="prefetch" href="/assets/js/61.616969ff.js"><link rel="prefetch" href="/assets/js/62.66629794.js"><link rel="prefetch" href="/assets/js/63.f15aeb62.js"><link rel="prefetch" href="/assets/js/64.87466da6.js"><link rel="prefetch" href="/assets/js/65.961dd887.js"><link rel="prefetch" href="/assets/js/66.44876a45.js"><link rel="prefetch" href="/assets/js/67.7bb86549.js"><link rel="prefetch" href="/assets/js/68.9a22f829.js"><link rel="prefetch" href="/assets/js/69.6b3e4928.js"><link rel="prefetch" href="/assets/js/7.2c075495.js"><link rel="prefetch" href="/assets/js/70.10e3a47b.js"><link rel="prefetch" href="/assets/js/71.b56dda37.js"><link rel="prefetch" href="/assets/js/72.faa346dc.js"><link rel="prefetch" href="/assets/js/73.4ef6617d.js"><link rel="prefetch" href="/assets/js/74.7bd3a83d.js"><link rel="prefetch" href="/assets/js/75.1c3ef64b.js"><link rel="prefetch" href="/assets/js/76.a817e69f.js"><link rel="prefetch" href="/assets/js/8.9b4cfefe.js"><link rel="prefetch" href="/assets/js/9.e529cf11.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.a5a0d673.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>HasakWebBlog</h3> <p class="description" data-v-59e6cb88>hasak</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>hasak</span>
+          
+        <span data-v-59e6cb88>2022 - </span>
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="HasakWebBlog" class="logo"> <span class="site-name">HasakWebBlog</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      前端学习
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/HTML5&amp;CSS3/" class="nav-link"><i class="undefined"></i>
+  HTML5&amp;CSS3
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Javascript/" class="nav-link"><i class="undefined"></i>
+  Javascript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Node/" class="nav-link"><i class="undefined"></i>
+  Node
+</a></li><li class="dropdown-item"><!----> <a href="/categories/VUE/" class="nav-link"><i class="undefined"></i>
+  VUE
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tags
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      联系我
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/hasakxu" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><img src="/dog.png" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    hasak
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>66</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>5</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      前端学习
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/HTML5&amp;CSS3/" class="nav-link"><i class="undefined"></i>
+  HTML5&amp;CSS3
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Javascript/" class="nav-link"><i class="undefined"></i>
+  Javascript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Node/" class="nav-link"><i class="undefined"></i>
+  Node
+</a></li><li class="dropdown-item"><!----> <a href="/categories/VUE/" class="nav-link"><i class="undefined"></i>
+  VUE
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tags
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      联系我
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/hasakxu" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>HTML5&amp;CSS3 学习</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blogs/基础/html/20221107html01.html" class="sidebar-link">01 字符实体与语义标签</a></li><li><a href="/blogs/基础/html/20221107html02.html" class="sidebar-link">02 CSS语法与选择器</a></li><li><a href="/blogs/基础/html/20221110html03.html" class="sidebar-link">03 样式继承与其他概念</a></li><li><a href="/blogs/基础/html/20221110html04.html" class="active sidebar-link">04 盒模型</a></li><li><a href="/blogs/基础/html/20221110html05.html" class="sidebar-link">05 盒模型补充</a></li><li><a href="/blogs/基础/html/20221113html06.html" class="sidebar-link">06 浮动</a></li><li><a href="/blogs/基础/html/20221113html07.html" class="sidebar-link">07 高度塌陷与BFC</a></li><li><a href="/blogs/基础/html/20221113html08.html" class="sidebar-link">08 定位</a></li><li><a href="/blogs/基础/html/20221115html09.html" class="sidebar-link">09 字体</a></li><li><a href="/blogs/基础/html/20221115html10.html" class="sidebar-link">10 背景</a></li><li><a href="/blogs/基础/html/20221115html11.html" class="sidebar-link">11 雪碧图和渐变</a></li><li><a href="/blogs/基础/html/20221115html12.html" class="sidebar-link">12 表格</a></li><li><a href="/blogs/基础/html/20221115html13.html" class="sidebar-link">13 过渡与动画</a></li><li><a href="/blogs/基础/html/20221115html14.html" class="sidebar-link">14 变形：平移、旋转与缩放</a></li><li><a href="/blogs/基础/html/20221115html15.html" class="sidebar-link">15 LESS简介</a></li><li><a href="/blogs/基础/html/20221115html16.html" class="sidebar-link">16 弹性盒简介</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>04 盒模型</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>hasak</span>
+          
+        <span data-v-59e6cb88>2022 - </span>
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page" style="padding-right:0;"><section style="display:;"><div class="page-title"><h1 class="title">04 盒模型</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>hasak</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>6/17/2022</span></i> <!----> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>CSS</span></i></div></div> <div class="theme-reco-content content__default"><h1 id="_04-盒模型"><a href="#_04-盒模型" class="header-anchor">#</a> 04 盒模型</h1> <h2 id="_1-文档流-normalflow"><a href="#_1-文档流-normalflow" class="header-anchor">#</a> 1. 文档流（normalflow)</h2> <p>网页时一个多层的结构，一层叠一层，通过CSS可以分别为每一层来设置样式，作为用户来讲只能看到最顶上一层，这些层中，最底下爱的一层称为<strong>文档流</strong></p> <ul><li>文档流是网页的基础，我们所创建的元素默认都是在文档流中进行排列的</li> <li>对于我们来说元素主要有两个状态
+<ul><li>在文档流中</li> <li>不在文档流中（即脱离文档流）</li></ul></li></ul> <h2 id="_2-块元素"><a href="#_2-块元素" class="header-anchor">#</a> 2. 块元素</h2> <ul><li>块元素会在页面中独占一行</li> <li>默认宽度是父元素的全部（会把父元素撑满）</li> <li>默认高度会被内容撑开（子元素）</li></ul> <h2 id="_3-行内元素"><a href="#_3-行内元素" class="header-anchor">#</a> 3. 行内元素</h2> <ul><li>行内元素不会独占页面的一行，只占自身的大小</li> <li>在页面中从左向右水平排列</li> <li>如果一行中不能容纳下所有的行内元素，元素会换到第二行继续从左向右排列</li> <li>默认宽度和高度都是被内容撑开。</li></ul> <h2 id="_4-盒子模型"><a href="#_4-盒子模型" class="header-anchor">#</a> 4. 盒子模型</h2> <h3 id="盒子模型-box-model"><a href="#盒子模型-box-model" class="header-anchor">#</a> <strong>盒子模型（box model）</strong></h3> <p>CSS将页面中的所有元素都设置为一个矩形的盒子，对页面的布局就是将不同的盒子摆放到不同的位置</p> <p>每个盒子都由以下的几个部分组成</p> <ul><li><strong>内容区</strong>（content）</li> <li><strong>内边距</strong>（padding）</li> <li><strong>边框</strong>（border）</li> <li><strong>外边距</strong>（margin）</li></ul> <p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211101957754.png" alt="盒子模型"></p> <h3 id="内容区-content"><a href="#内容区-content" class="header-anchor">#</a> 内容区(content)</h3> <p>内容区是盒子模型的中心，它呈现了盒子的主要信息内容，这些内容可以是文本、图片等多种类型。</p> <p>元素中的所有子元素和文本内容都在内容区中</p> <ul><li><p><code>width</code> 设置内容区的宽度</p></li> <li><p><code>height</code> 设置内容区的宽度</p></li> <li><div class="language-html line-numbers-mode"><pre class="language-html"><code> .box1 {
+ 	width: 100px;
+ 	height:100px;
+ 	background-color:#bfa;
+ }
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div></li></ul> <h3 id="边框-border"><a href="#边框-border" class="header-anchor">#</a> 边框（border）</h3> <p>边框属于盒子边缘，边缘里边属于盒子内部，出了边框都是盒子的外部</p> <p>注意：<em>边框的大小会影响到整个盒子的大小</em></p> <ul><li><p><code>border-width</code></p> <ul><li>边框的宽度：默认为3px</li> <li><code>border-top-width</code> 上边框的宽度</li> <li><code>border-rigth-width</code> 右边框的宽度</li> <li><code>border-bottom-width</code>下边框的宽度</li> <li><code>border-left-width</code>左边框的宽度</li></ul></li> <li><p><code>border-color</code></p> <ul><li>边框的颜色：默认使用<code>color</code>的颜色值</li> <li><code>border-top-color</code> 上边框的颜色</li> <li><code>border-right-color</code> 右边框的颜色</li> <li><code>border-bottom-color</code> 下边框的颜色</li> <li><code>border-left-color</code> 左边框的颜色</li></ul></li> <li><p><code>border-style</code></p> <ul><li>边框的样式： 默认值为none</li> <li><code>border-top-style</code> 上边框的样式</li> <li><code>border-right-style</code> 右边框的样式</li> <li><code>border-bottom-style</code> 下边框的样式</li> <li><code>border-left-style</code> 左边框的样式</li></ul></li></ul> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token selector">.box1</span> <span class="token punctuation">{</span>
+	<span class="token property">border-width</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+    <span class="token property">border-color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span>
+    <span class="token comment">/*
+    solid 实线
+    dotted 点状虚线
+    dashed 虚线
+    double 双实线
+    */</span>
+    <span class="token property">border-style</span><span class="token punctuation">:</span> solid<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211101957262.png" alt="border样式"></p> <p>不论是<code>border-width</code>、 <code>border-color</code>、 <code>border-style</code> 还是衍生出来的属性写法，都可以指定每个方向边框的情况。</p> <p>设定几个值就决定了对应方向的宽度、颜色或样式</p> <ul><li>四个值 <code>上 右 下 左</code></li> <li>三个值 <code>上 左右 下</code></li> <li>两个值 <code>上下 左右</code></li> <li>一个值：<code>上下左右</code></li></ul> <p>实际上不论设置几个值，其顺序都是：<em>按照顺时针方向进行设置的，剩下的由矩阵的对称性推导出来</em></p> <p><code>border: solid 10px orange</code> 是其简写，通过该属性可以同时设置边框所有的相关样式，并且没有顺序要求</p> <ul><li><code>border-top</code> 上边框的宽度、颜色和样式</li> <li><code>border-right</code> 右边框的宽度、颜色和样式</li> <li><code>border-bottom</code> 下边框的宽度、颜色和样式</li> <li><code>border-left</code> 左边框的宽度、颜色和样式</li></ul> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token selector">.box1</span> <span class="token punctuation">{</span>
+	<span class="token property">border</span><span class="token punctuation">:</span> 10px red solid<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="内边距-padding"><a href="#内边距-padding" class="header-anchor">#</a> 内边距（padding）</h3> <p>内边距，也称为填充，是内容区和边框之间的空间，<strong>背景颜色会延申</strong></p> <p><code>padding</code>指定四个方向的边距，分别为上下左右</p> <ul><li><code>padding-top</code> , <code>padding-right</code>,  <code>padding-bottom</code>, <code>padding-left</code></li></ul> <p>padding的简写属性可以同时指定四个方向的内边距，其规则和边框的属性设置一样。</p> <div class="language-html line-numbers-mode"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+    <span class="token selector">.outer</span> <span class="token punctuation">{</span>
+        <span class="token property">width</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+        <span class="token property">height</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+        <span class="token property">background-color</span><span class="token punctuation">:</span>#ffaadd<span class="token punctuation">;</span>
+        <span class="token property">border</span><span class="token punctuation">:</span> 10px orange solid<span class="token punctuation">;</span>
+        <span class="token property">padding</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span> //上，右， 下， 左均为100px
+    <span class="token punctuation">}</span>
+    <span class="token selector">.inner</span> <span class="token punctuation">{</span>
+        <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+        <span class="token property">height</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+        <span class="token property">background-color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>outer<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>inner<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211101958217.png" alt="padding"></p> <h3 id="外边距-margin"><a href="#外边距-margin" class="header-anchor">#</a> 外边距（margin）</h3> <p>外边距，位于盒子的最外围的空间。空白边使盒子之间不会紧凑地连接在一起，是CSS布局的一个重要手段。</p> <ul><li><p>注意：<em>外边距不会影响盒子可见框的大小，但会影响盒子的位置和占用空间</em></p></li> <li><p><code>margin</code>同样具有上、右、下、左四个属性。</p> <ul><li><code>margin-top</code> 上外边距
+<ul><li>正值则向下移动，负值则向上移动</li></ul></li> <li><code>margin-right</code> 右外边距
+<ul><li>正值则右边的元素向右移动，负值则右边的元素向左移动</li> <li>对于块元素，设置<code>margin-right</code>不会产生任何效果</li></ul></li> <li><code>margin-bottom</code> 下外边距
+<ul><li>正值则下边的元素向下移动，负值则下边的元素向上移动</li> <li>对于块元素，<strong>会有垂直方向上的边距重叠问题</strong></li></ul></li> <li><code>margin-left</code> 左外边距
+<ul><li>正值则向右移动，负值则向左移动</li></ul></li></ul></li></ul> <p>元素在页面中按照从左向右的顺序排列的，所以默认情况下</p> <ul><li>设置的左和上边距会移动元素自身</li> <li><strong>设置的下和右边距会移动其他元素</strong></li></ul> <div class="language-CSS line-numbers-mode"><pre class="language-css"><code><span class="token selector">.box1</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span>#bfa<span class="token punctuation">;</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 10px orange solid<span class="token punctuation">;</span>
+    
+    <span class="token property">margin</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211102012091.png" alt="margin1"></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>.box1 {
+    width:200px;
+    height:200px;
+    background-color:#bfa;
+    border: 10px orange solid;
+    
+    margin-top: 100px;
+}
+.box2 {
+    width:200px;
+    height:200px;
+    background-color:#bfa;
+    border: 10px orange solid;
+    
+    margin-top: 100px;
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211102013632.png" alt="margin2"></p> <h2 id="_5-水平方向布局"><a href="#_5-水平方向布局" class="header-anchor">#</a> 5. 水平方向布局</h2> <p>元素在其父元素中水平方向的位置由以下几个属性共同决定</p> <ul><li><code>margin-left</code> \  <code>border-left</code> \ <code>padding-left</code> \ <code>width</code> \ <code>padding-right</code> \ <code>border-righgt</code> \  <code>margin-right</code></li></ul> <p>水平元素必须满足以下等式</p> <p><code>其父元素内容区的宽度 = margin-left + border-left + padding-left + width + padding-right +border-right + margin-right</code></p> <p>以上等式必须满足，如果相加结构使等式不成立，则称为过度约束</p> <div class="language-CSS line-numbers-mode"><pre class="language-css"><code><span class="token selector">.outer</span> <span class="token punctuation">{</span>
+	<span class="token property">width</span><span class="token punctuation">:</span>800px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+    <span class="token property">border</span><span class="token punctuation">:</span>10px solid red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.inner</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span>#fas<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+&lt;div class=<span class="token string">&quot;outer&quot;</span>&gt;
+	&lt;div class=<span class="token string">&quot;inner&quot;</span>&gt; &lt;/div&gt;
+&lt;/div&gt;  
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><p>等式会自动调节情况。</p> <ul><li>如果这七个值没有<code>auto</code>的情况，则浏览器会自动调整<code>margin-right</code>值以使得等式满足</li></ul> <p><code>0+0+0+0+200+0+0+0 = 800</code>  ===&gt; <code>0+0+0+200+0+0+600 = 800</code></p> <ul><li>如果着七个值中有<code>auto</code>的情况，则会自动调整<code>auto</code>值使等式成立。
+<ul><li>如果某个值为<code>auto</code>,则会自动调整那个值使得等式成立</li> <li>如果宽度为<code>auto</code>，则宽度会调整到最大，其他<code>auto</code>的外边距会自动设置为0</li> <li>如果外边距为<code>auto</code>,则<code>auto</code>的外边距会自动均分使得等式成立</li></ul></li></ul> <h2 id="_6-垂直方向布局"><a href="#_6-垂直方向布局" class="header-anchor">#</a> 6. 垂直方向布局</h2> <p>子元素是在父元素的内容区中排列的，如果子元素的大小超过了父元素，则子元素会从父元素中溢出。</p> <ul><li>使用<code>overflow</code> \ <code>overflow-x</code> \ <code>overflow-y</code>属性来设置父元素如何处理溢出的子元素
+<ul><li>可选值有：
+<ul><li><code>visible</code> 溢出内容被显示在父元素的外部位置，默认值</li> <li><code>hidden</code> 溢出内容被裁剪，不显示</li> <li><code>scroll</code> 生成两个滚动条，通过滚动条来查看完整的内容</li> <li><code>auto</code> 根据需要生成滚动条</li></ul></li></ul></li></ul> <h3 id="外边距折叠"><a href="#外边距折叠" class="header-anchor">#</a> 外边距折叠</h3> <p><strong>垂直外边距的折叠</strong></p> <p><strong>相邻的垂直方向外边距会发生折叠现象</strong></p> <ol><li><p>兄弟元素之间</p> <p><strong>如果两个相邻的元素的上下外边距相遇，那么会产生外边距折叠</strong></p></li> <li><p>父元素和它的第一个元素或者最后一个元素之间</p> <p><strong>父元素与它的子元素之间隔着边框、内边距、内容。如果这些没有了，那么父元素和子元素的外边距相邻，就会发生外边距折叠</strong></p></li> <li><p>空的块级元素</p> <p><strong>盒模型是内容、内边距、边框、外边距，如果margin-top和margin-bottom相遇，就会发生外边距折叠</strong></p></li></ol> <p>总而言之，<em>就是不能让两个垂直的margin相遇</em>，否则就会发生外边距折叠</p> <p><strong>避免外边距折叠的方法</strong></p> <ul><li>浮动元素不会与外边距发生叠加，也包括他的子元素</li> <li>绝对定位元素和其他任何元素之间不发生外边距折叠，也包括它的子元素</li> <li>inline-block 元素和其他任何元素之间不发生外边距叠加，也包括它的子元素</li> <li>创建了BFC的元素不会和他的子元素发生外边距叠加（兄弟元素还是会叠加）</li></ul> <p><strong>兄弟元素</strong></p> <ul><li><p>如果相邻的外边距都是正值，取两者之间的较大值</p></li> <li><p>如果相邻的外边距是一正一负，则取两者的和</p></li> <li><p>如果相邻的外边距都是负值，则取两者中绝对值的较大者</p></li> <li><p>总结：兄弟元素之间的外边距折叠，有利于开发，不需要进行处理</p> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token selector">.box1, .box2</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.box1</span> <span class="token punctuation">{</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span>#abc<span class="token punctuation">;</span>
+    <span class="token comment">/*设置一个下外边距*/</span>
+    <span class="token property">margin-bottom</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">.box2</span> <span class="token punctuation">{</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #bfc<span class="token punctuation">;</span>
+    <span class="token comment">/*设置一个上外边距*/</span>
+    <span class="token property">margin-top</span><span class="token punctuation">:</span> 100px；      
+<span class="token punctuation">}</span>
+
+&lt;div class=<span class="token string">&quot;box1&quot;</span>&gt;&lt;/div&gt;
+&lt;div class=<span class="token string">&quot;box2&quot;</span>&gt;&lt;/div&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><p><strong>父子元素</strong></p></li></ul> <p>​			父子元素间相邻外边距，子元素会传递给父元素（上外边距）</p> <div class="language-CSS line-numbers-mode"><pre class="language-css"><code><span class="token selector">.box3</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span>#abc<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.box4</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span>#orange<span class="token punctuation">;</span>
+    <span class="token comment">/*margin-top:100px;*/</span>
+<span class="token punctuation">}</span>
+&lt;div class=<span class="token string">&quot;box3&quot;</span>&gt;
+	&lt;div class=<span class="token string">&quot;box4&quot;</span>&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211102013704.png" alt="父子元素"></p> <ul><li><p>父子外边距的折叠会影响到页面的布局，必须要进行处理</p> <ul><li><p>不好的处理方式</p> <ul><li><p>将对子元素的调整转为对父元素的调整</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>.box3 {
+    width:200px;
+    height:200px;
+    background-color:#abc;
+    padding-top:100px;
+    /*不调整子元素的margin，而是取调整父元素的padding*/
+}
+.box4 {
+    width:100px;
+    height:100px;
+    background-color:#orange;
+    /*margin-top:100px;*/
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211102013604.png" alt="wrong1"></p> <p>父元素的位置正确了，但是高度却被“撑大了”。padding属性会影响元素的大小，还需要手动调整下父元素的高度</p> <div class="language-CSS line-numbers-mode"><pre class="language-css"><code><span class="token selector">.box3</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span><span class="token comment">/*将高度缩小100px*/</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span>#abc<span class="token punctuation">;</span>
+    <span class="token property">padding-top</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.box4</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span>#orange<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211102014584.png" alt="right1"></p> <ul><li><p>保留子元素的<code>margin-top</code>属性，但是给父元素加上了一个上边框</p> <div class="language-CSS line-numbers-mode"><pre class="language-css"><code><span class="token selector">.box3</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span>#abc<span class="token punctuation">;</span>
+    <span class="token property">border-top</span><span class="token punctuation">:</span>1px rebeccapurple solid
+<span class="token punctuation">}</span>
+<span class="token selector">.box4</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span>#orange<span class="token punctuation">;</span>
+    <span class="token property">margin-top</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211102014468.png" alt="wrong2"></p> <p>因为加了1px的边框，所以父元素盒子的高度也增加了1px。需要手动调整父元素的高度，同时让边框颜色和父元素盒子颜色保持一致</p> <p>子元素也向下移动了1px的距离，所以，margin-top减去一个像素即可</p> <div class="language-CSS line-numbers-mode"><pre class="language-css"><code><span class="token selector">.box3</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span>#abc<span class="token punctuation">;</span>
+    <span class="token property">border-top</span><span class="token punctuation">:</span>1px rebeccapurple solid
+<span class="token punctuation">}</span>
+<span class="token selector">.box4</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span>#orange<span class="token punctuation">;</span>
+    <span class="token property">margin-top</span><span class="token punctuation">:</span> 99px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div></li></ul></li></ul></li></ul></li></ul> <p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211102014758.png" alt="right2"></p> <h2 id="_7-行内元素的盒模型"><a href="#_7-行内元素的盒模型" class="header-anchor">#</a> 7. 行内元素的盒模型</h2> <ul><li><p><strong>行内元素不支持设置高度和宽度</strong></p> <div class="language-CSS line-numbers-mode"><pre class="language-css"><code><span class="token selector">.s1</span> <span class="token punctuation">{</span>
+	<span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+	<span class="token property">height</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span>
+	<span class="token property">background-color</span><span class="token punctuation">:</span>yellow<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.s2</span> <span class="token punctuation">{</span>
+	<span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+	<span class="token property">height</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+	<span class="token property">background-color</span><span class="token punctuation">:</span>#bfa<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+&lt;span class=<span class="token string">&quot;s1&quot;</span>&gt;我是span&lt;/span&gt;
+&lt;div class=<span class="token string">&quot;s2&quot;</span>&gt;&lt;/div&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div></li></ul> <p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211102014663.png" alt="SPAN1"></p> <ul><li><p>行内元素可以设置<code>padding</code> ，<strong>但是垂直方向的<code>padding</code>不会影响页面的布局</strong></p> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token selector">.s1</span> <span class="token punctuation">{</span>
+	<span class="token property">padding</span><span class="token punctuation">:</span>100px<span class="token punctuation">;</span>
+	<span class="token property">background-color</span><span class="token punctuation">:</span>yellow<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.s2</span> <span class="token punctuation">{</span>
+	<span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+	<span class="token property">height</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+	<span class="token property">background-color</span><span class="token punctuation">:</span>#bfa<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+&lt;span class=<span class="token string">&quot;s1&quot;</span>&gt;我是span&lt;/span&gt;
+&lt;div class=<span class="token string">&quot;s2&quot;</span>&gt;&lt;/div&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211102014660.png" alt="span2"></p></li> <li><p>行内元素可以设置<code>border</code>， <strong>垂直方向的<code>border</code>不会影响页面的布局</strong></p> <div class="language-CSS line-numbers-mode"><pre class="language-css"><code><span class="token selector">.s1</span> <span class="token punctuation">{</span>
+	<span class="token property">border</span><span class="token punctuation">:</span> 10px orange solid<span class="token punctuation">;</span>
+	<span class="token property">background-color</span><span class="token punctuation">:</span>yellow<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.s2</span> <span class="token punctuation">{</span>
+	<span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+	<span class="token property">height</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+	<span class="token property">background-color</span><span class="token punctuation">:</span>#bfa<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+&lt;span class=<span class="token string">&quot;s1&quot;</span>&gt;我是span&lt;/span&gt;
+&lt;div class=<span class="token string">&quot;s2&quot;</span>&gt;&lt;/div&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211102014616.png" alt="span3"></p></li> <li><p>行内元素可以设置<code>margin</code>， 垂直方向的<code>margin</code>不会影响页面的布局</p> <div class="language-css line-numbers-mode"><pre class="language-css"><code><span class="token selector">.s1</span> <span class="token punctuation">{</span>
+	margin：100px<span class="token punctuation">;</span>
+	<span class="token property">background-color</span><span class="token punctuation">:</span>yellow<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.s2</span> <span class="token punctuation">{</span>
+	<span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+	<span class="token property">height</span><span class="token punctuation">:</span>200px<span class="token punctuation">;</span>
+	<span class="token property">background-color</span><span class="token punctuation">:</span>#bfa<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+&lt;span class=<span class="token string">&quot;s1&quot;</span>&gt;我是span&lt;/span&gt;
+&lt;div class=<span class="token string">&quot;s2&quot;</span>&gt;&lt;/div&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p><img src="https://hasakwebblogimg.oss-cn-hangzhou.aliyuncs.com/202211102014247.png" alt="span4"></p></li></ul> <p>想要行内元素对页面布局产生影响，需要<code>display</code>来进行元素的设置</p> <ul><li><code>inline</code>用来将元素设置为行内元素</li> <li><code>block</code>将元素设置为块元素</li> <li><code>inline-block</code>将元素设置为行内块元素，既可以设置宽高又不占一行</li> <li><code>table</code>将元素设置为表格</li> <li><code>none</code>不在页面中显示，隐藏一个元素，<strong>同时原来属于S1的位置也没有了</strong></li></ul> <p>此外还有 <code>visibility</code>用于设置元素的显示状态</p> <ul><li><code>visible</code>默认值，元素在页面中正常显示</li> <li><code>hidden</code> <strong>元素在页面中隐藏不显示</strong>，但依然占据页面的位置</li></ul> <h2 id="_8-浏览器的默认样式"><a href="#_8-浏览器的默认样式" class="header-anchor">#</a> 8. 浏览器的默认样式</h2> <p>通常情况，浏览器都会为元素设置一些默认样式</p> <p>默认·样式的存在会影响到页面的布局，通常情况下编写网页时必须要去除浏览器的默认样式（px端界面）</p> <p>可以通过引进css样式进行去除</p> <h3 id="reset样式"><a href="#reset样式" class="header-anchor">#</a> reset样式</h3> <p>官方地址：<a href="https://meyerweb.com/eric/tools/css/reset/" target="_blank" rel="noopener noreferrer">reset.css<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;!--下载后引入--&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;./reset.css&quot;&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>reset.css的作用就是将各个内外边距设置为0，将一些样式设置为none</p> <h3 id="normalize样式"><a href="#normalize样式" class="header-anchor">#</a> normalize样式</h3> <p>官方地址： <a href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" target="_blank" rel="noopener noreferrer">normalize.css<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/normalize.css&quot;&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>normalize没有去除所有样式，而是将所有的默认样式统一，这样在不同的浏览器里显示效果也是统一的。</p></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/blogs/基础/html/20221110html03.html" class="prev">
+          03 样式继承与其他概念
+        </a></span> <span class="next"><a href="/blogs/基础/html/20221110html05.html">
+          05 盒模型补充
+        </a></span></p></div> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:0;" data-v-b57cc07c data-v-7dd95ae2></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div></div></div>
+    <script src="/assets/js/app.5cfb4895.js" defer></script><script src="/assets/js/3.f80332a6.js" defer></script><script src="/assets/js/1.5cffa4a1.js" defer></script><script src="/assets/js/14.eba8a15c.js" defer></script>
+  </body>
+</html>
